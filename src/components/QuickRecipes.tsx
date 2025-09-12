@@ -1,12 +1,14 @@
 import { Clock, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import RecipeCard from "./RecipeCard";
-import indianDishes from "@/assets/indian-dishes.jpg";
+import masalaMaggi from "@/assets/masala-maggi.jpg";
+import alooBhujia from "@/assets/aloo-bhujia.jpg";
+import masalaChai from "@/assets/masala-chai.jpg";
 
 const quickRecipes = [
   {
     title: "Instant Masala Maggi",
-    image: indianDishes,
+    image: masalaMaggi,
     cookTime: 5,
     difficulty: "Easy",
     rating: 4.8,
@@ -16,7 +18,7 @@ const quickRecipes = [
   },
   {
     title: "Aloo Bhujia",
-    image: indianDishes,
+    image: alooBhujia,
     cookTime: 8,
     difficulty: "Easy",
     rating: 4.6,
@@ -26,7 +28,7 @@ const quickRecipes = [
   },
   {
     title: "Masala Chai",
-    image: indianDishes,
+    image: masalaChai,
     cookTime: 5,
     difficulty: "Easy",
     rating: 4.9,
