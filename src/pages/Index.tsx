@@ -1,17 +1,19 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import DietaryFilters from "@/components/DietaryFilters";
-import QuickRecipes from "@/components/QuickRecipes";
-import HealthSection from "@/components/HealthSection";
+import LibraryHeader from "@/components/LibraryHeader";
+import LibraryHero from "@/components/LibraryHero";
+import FeaturedBooks from "@/components/FeaturedBooks";
+import ServicesSection from "@/components/ServicesSection";
+import QuickActions from "@/components/QuickActions";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      <Hero />
-      <DietaryFilters />
-      <QuickRecipes />
-      <HealthSection />
+      <LibraryHeader />
+      <LibraryHero />
+      <FeaturedBooks />
+      <ServicesSection />
+      <QuickActions />
+      <Footer />
     </div>
   );
 };

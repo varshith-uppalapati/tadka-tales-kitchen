@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Indian spice-inspired color palette */
-    --background: 45 15% 97%;
-    --foreground: 25 25% 15%;
+    /* University library color palette */
+    --background: 215 25% 98%;
+    --foreground: 215 25% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 25% 15%;
+    --card-foreground: 215 25% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 25% 15%;
+    --popover-foreground: 215 25% 8%;
 
-    /* Saffron-inspired primary */
-    --primary: 35 85% 55%;
+    /* University blue primary */
+    --primary: 220 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    /* Cardamom green secondary */
-    --secondary: 145 25% 85%;
-    --secondary-foreground: 25 25% 15%;
+    /* Academic gold secondary */
+    --secondary: 45 85% 88%;
+    --secondary-foreground: 215 25% 15%;
 
-    /* Warm muted tones */
-    --muted: 40 20% 93%;
-    --muted-foreground: 25 15% 45%;
+    /* Soft muted tones */
+    --muted: 210 20% 93%;
+    --muted-foreground: 215 15% 45%;
 
-    /* Turmeric accent */
-    --accent: 45 95% 65%;
-    --accent-foreground: 25 25% 15%;
+    /* Knowledge green accent */
+    --accent: 155 55% 65%;
+    --accent-foreground: 215 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 20% 88%;
-    --input: 40 20% 88%;
-    --ring: 35 85% 55%;
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 220 85% 55%;
 
-    /* Custom recipe-specific colors */
-    --saffron: 35 85% 55%;
-    --turmeric: 45 95% 65%;
-    --cardamom: 145 25% 65%;
-    --cinnamon: 25 45% 45%;
-    --cumin: 35 35% 35%;
+    /* Custom library-specific colors */
+    --university-blue: 220 85% 55%;
+    --academic-gold: 45 85% 58%;
+    --knowledge-green: 155 55% 45%;
+    --wisdom-purple: 270 65% 55%;
+    --book-spine: 25 45% 35%;
     
     /* Gradients */
-    --gradient-spice: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--turmeric)));
-    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(40 25% 95%));
-    --gradient-hero: linear-gradient(135deg, hsl(35 85% 55% / 0.1), hsl(145 25% 65% / 0.1));
+    --gradient-academic: linear-gradient(135deg, hsl(var(--university-blue)), hsl(var(--academic-gold)));
+    --gradient-library: linear-gradient(180deg, hsl(var(--background)), hsl(210 25% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 85% 55% / 0.1), hsl(155 55% 45% / 0.1));
 
     --radius: 0.5rem;
 
