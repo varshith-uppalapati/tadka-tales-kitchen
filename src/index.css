@@ -8,110 +8,105 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* University library color palette */
-    --background: 215 25% 98%;
-    --foreground: 215 25% 8%;
+    /* Corporate HR/Finance color palette */
+    --background: 210 40% 98%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 8%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 8%;
+    --popover-foreground: 215 25% 27%;
 
-    /* University blue primary */
-    --primary: 220 85% 55%;
+    /* Professional blue primary */
+    --primary: 214 84% 56%;
     --primary-foreground: 0 0% 100%;
 
-    /* Academic gold secondary */
-    --secondary: 45 85% 88%;
-    --secondary-foreground: 215 25% 15%;
+    /* Neutral gray secondary */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 215 25% 27%;
 
     /* Soft muted tones */
-    --muted: 210 20% 93%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Knowledge green accent */
-    --accent: 155 55% 65%;
-    --accent-foreground: 215 25% 15%;
+    /* Light blue accent */
+    --accent: 214 95% 93%;
+    --accent-foreground: 214 84% 56%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 220 85% 55%;
-
-    /* Custom library-specific colors */
-    --university-blue: 220 85% 55%;
-    --academic-gold: 45 85% 58%;
-    --knowledge-green: 155 55% 45%;
-    --wisdom-purple: 270 65% 55%;
-    --book-spine: 25 45% 35%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
     
-    /* Gradients */
-    --gradient-academic: linear-gradient(135deg, hsl(var(--university-blue)), hsl(var(--academic-gold)));
-    --gradient-library: linear-gradient(180deg, hsl(var(--background)), hsl(210 25% 95%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 85% 55% / 0.1), hsl(155 55% 45% / 0.1));
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 214 84% 56%;
+
+    /* Chart colors */
+    --chart-1: 214 84% 56%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 271 81% 56%;
+    --chart-5: 0 84% 60%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 25 25% 8%;
-    --foreground: 45 15% 92%;
+    --background: 215 28% 17%;
+    --foreground: 210 40% 98%;
 
-    --card: 25 25% 10%;
-    --card-foreground: 45 15% 92%;
+    --card: 215 25% 20%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 25 25% 10%;
-    --popover-foreground: 45 15% 92%;
+    --popover: 215 25% 20%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 35 85% 55%;
-    --primary-foreground: 25 25% 8%;
+    --primary: 214 84% 56%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 25 20% 15%;
-    --secondary-foreground: 45 15% 92%;
+    --secondary: 215 25% 27%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 25 20% 15%;
-    --muted-foreground: 45 10% 65%;
+    --muted: 215 25% 27%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 45 95% 65%;
-    --accent-foreground: 25 25% 8%;
+    --accent: 215 25% 27%;
+    --accent-foreground: 214 84% 56%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 45 15% 92%;
-
-    --border: 25 20% 18%;
-    --input: 25 20% 18%;
-    --ring: 35 85% 55%;
-
-    /* Dark mode spice colors */
-    --saffron: 35 85% 55%;
-    --turmeric: 45 95% 65%;
-    --cardamom: 145 25% 55%;
-    --cinnamon: 25 45% 55%;
-    --cumin: 35 35% 45%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
     
-    /* Dark gradients */
-    --gradient-spice: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--turmeric)));
-    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(25 20% 12%));
-    --gradient-hero: linear-gradient(135deg, hsl(35 85% 55% / 0.2), hsl(145 25% 55% / 0.2));
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 215 25% 27%;
+    --input: 215 25% 27%;
+    --ring: 214 84% 56%;
+
+    --chart-1: 214 84% 56%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 271 81% 56%;
+    --chart-5: 0 84% 60%;
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

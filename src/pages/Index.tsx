@@ -1,19 +1,21 @@
-import LibraryHeader from "@/components/LibraryHeader";
-import LibraryHero from "@/components/LibraryHero";
-import FeaturedBooks from "@/components/FeaturedBooks";
-import ServicesSection from "@/components/ServicesSection";
-import QuickActions from "@/components/QuickActions";
-import Footer from "@/components/Footer";
+import DocumentHeader from "@/components/DocumentHeader";
+import DocumentHero from "@/components/DocumentHero";
+import DocumentUpload from "@/components/DocumentUpload";
+import ProcessingDashboard from "@/components/ProcessingDashboard";
+import ExtractedDataView from "@/components/ExtractedDataView";
+import AnalyticsDashboard from "@/components/AnalyticsDashboard";
+import IntegrationsSection from "@/components/IntegrationsSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <LibraryHeader />
-      <LibraryHero />
-      <FeaturedBooks />
-      <ServicesSection />
-      <QuickActions />
-      <Footer />
+      <DocumentHeader />
+      <DocumentHero />
+      <DocumentUpload />
+      <ProcessingDashboard />
+      <ExtractedDataView />
+      <AnalyticsDashboard />
+      <IntegrationsSection />
     </div>
   );
 };
