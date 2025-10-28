@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, Search, Calendar, MessageSquare, Users, MessageCircle, LogOut } from "lucide-react";
+import { GraduationCap, Search, Calendar, MessageSquare, Users, MessageCircle, LogOut, BookOpen } from "lucide-react";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -34,6 +34,7 @@ const Dashboard = () => {
     { icon: Calendar, label: "Events", path: "/events" },
     { icon: MessageSquare, label: "Feedback", path: "/feedback" },
     { icon: Users, label: "Clubs", path: "/clubs" },
+    { icon: BookOpen, label: "Book Explorer", path: "/book-explorer" },
     { icon: MessageCircle, label: "Chatbot", path: "/chatbot" },
   ];
 
@@ -72,6 +73,7 @@ const Dashboard = () => {
                       {item.label === "Events" && "View and manage campus events"}
                       {item.label === "Feedback" && "Share your feedback"}
                       {item.label === "Clubs" && "Discover student clubs"}
+                      {item.label === "Book Explorer" && "Browse programming books"}
                       {item.label === "Chatbot" && "Get instant help"}
                     </CardDescription>
                   </CardHeader>

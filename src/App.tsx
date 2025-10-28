@@ -12,6 +12,8 @@ import Events from "./pages/Events";
 import Feedback from "./pages/Feedback";
 import Clubs from "./pages/Clubs";
 import Chatbot from "./pages/Chatbot";
+import BookExplorer from "./pages/BookExplorer";
+import BookDetail from "./pages/BookDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +34,8 @@ const App = () => (
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/clubs" element={<Clubs />} />
           <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/book-explorer" element={<BookExplorer />} />
+          <Route path="/book/:id" element={<BookDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
