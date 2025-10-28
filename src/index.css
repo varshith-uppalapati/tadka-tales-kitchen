@@ -33,6 +33,14 @@ All colors MUST be HSL.
     /* Light blue accent */
     --accent: 214 95% 93%;
     --accent-foreground: 214 84% 56%;
+    
+    /* Book Explorer vibrant colors */
+    --book-purple: 271 81% 65%;
+    --book-pink: 330 81% 65%;
+    --book-orange: 25 95% 60%;
+    --book-green: 142 71% 55%;
+    --book-teal: 180 77% 55%;
+    --book-indigo: 243 75% 65%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -144,6 +152,39 @@ All colors MUST be HSL.
   .animate-scale-in {
     animation: scale-in 0.4s ease-out;
   }
+  
+  .book-gradient-1 {
+    background: linear-gradient(135deg, hsl(var(--book-purple)) 0%, hsl(var(--book-pink)) 100%);
+  }
+  
+  .book-gradient-2 {
+    background: linear-gradient(135deg, hsl(var(--book-orange)) 0%, hsl(var(--book-pink)) 100%);
+  }
+  
+  .book-gradient-3 {
+    background: linear-gradient(135deg, hsl(var(--book-green)) 0%, hsl(var(--book-teal)) 100%);
+  }
+  
+  .book-gradient-4 {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--book-indigo)) 100%);
+  }
+  
+  .book-gradient-bg {
+    background: linear-gradient(135deg, 
+      hsl(var(--book-purple) / 0.05) 0%,
+      hsl(var(--book-pink) / 0.05) 25%,
+      hsl(var(--book-orange) / 0.05) 50%,
+      hsl(var(--book-teal) / 0.05) 75%,
+      hsl(var(--book-green) / 0.05) 100%);
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+  }
 }
 
 /* Keyframes */
@@ -166,5 +207,23 @@ All colors MUST be HSL.
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
   }
 }
